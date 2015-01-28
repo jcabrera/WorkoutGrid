@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D407F28D1A76E8240075D825 /* NewCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D407F28C1A76E8240075D825 /* NewCellCollectionViewCell.m */; };
 		D4F63BC61A72BE8D00E29B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BC51A72BE8D00E29B97 /* main.m */; };
 		D4F63BC91A72BE8D00E29B97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BC81A72BE8D00E29B97 /* AppDelegate.m */; };
 		D4F63BCC1A72BE8D00E29B97 /* WorkoutGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BCA1A72BE8D00E29B97 /* WorkoutGrid.xcdatamodeld */; };
@@ -15,6 +16,10 @@
 		D4F63BD41A72BE8D00E29B97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F63BD31A72BE8D00E29B97 /* Images.xcassets */; };
 		D4F63BD71A72BE8D00E29B97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4F63BD51A72BE8D00E29B97 /* LaunchScreen.xib */; };
 		D4F63BE31A72BE8D00E29B97 /* WorkoutGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BE21A72BE8D00E29B97 /* WorkoutGridTests.m */; };
+		D4F63BEE1A73F65000E29B97 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BED1A73F65000E29B97 /* LabelCell.m */; };
+		D4F63BF11A75763F00E29B97 /* DataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BF01A75763F00E29B97 /* DataCell.m */; };
+		D4F63BF41A758D7A00E29B97 /* JHCMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BF31A758D7A00E29B97 /* JHCMachine.m */; };
+		D4F63BF71A76BE6400E29B97 /* CurrentMachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F63BF61A76BE6400E29B97 /* CurrentMachineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D407F28B1A76E8240075D825 /* NewCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCellCollectionViewCell.h; sourceTree = "<group>"; };
+		D407F28C1A76E8240075D825 /* NewCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCellCollectionViewCell.m; sourceTree = "<group>"; };
 		D4F63BC01A72BE8D00E29B97 /* WorkoutGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F63BC41A72BE8D00E29B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F63BC51A72BE8D00E29B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +49,14 @@
 		D4F63BDC1A72BE8D00E29B97 /* WorkoutGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F63BE11A72BE8D00E29B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F63BE21A72BE8D00E29B97 /* WorkoutGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutGridTests.m; sourceTree = "<group>"; };
+		D4F63BEC1A73F65000E29B97 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		D4F63BED1A73F65000E29B97 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		D4F63BEF1A75763F00E29B97 /* DataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCell.h; sourceTree = "<group>"; };
+		D4F63BF01A75763F00E29B97 /* DataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCell.m; sourceTree = "<group>"; };
+		D4F63BF21A758D7A00E29B97 /* JHCMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCMachine.h; sourceTree = "<group>"; };
+		D4F63BF31A758D7A00E29B97 /* JHCMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCMachine.m; sourceTree = "<group>"; };
+		D4F63BF51A76BE6400E29B97 /* CurrentMachineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentMachineViewController.h; sourceTree = "<group>"; };
+		D4F63BF61A76BE6400E29B97 /* CurrentMachineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentMachineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +102,17 @@
 				D4F63BC81A72BE8D00E29B97 /* AppDelegate.m */,
 				D4F63BCD1A72BE8D00E29B97 /* ViewController.h */,
 				D4F63BCE1A72BE8D00E29B97 /* ViewController.m */,
+				D4F63BF21A758D7A00E29B97 /* JHCMachine.h */,
+				D4F63BF31A758D7A00E29B97 /* JHCMachine.m */,
+				D4F63BEF1A75763F00E29B97 /* DataCell.h */,
+				D4F63BF01A75763F00E29B97 /* DataCell.m */,
+				D407F28B1A76E8240075D825 /* NewCellCollectionViewCell.h */,
+				D407F28C1A76E8240075D825 /* NewCellCollectionViewCell.m */,
+				D4F63BEC1A73F65000E29B97 /* LabelCell.h */,
+				D4F63BED1A73F65000E29B97 /* LabelCell.m */,
 				D4F63BD01A72BE8D00E29B97 /* Main.storyboard */,
+				D4F63BF51A76BE6400E29B97 /* CurrentMachineViewController.h */,
+				D4F63BF61A76BE6400E29B97 /* CurrentMachineViewController.m */,
 				D4F63BD31A72BE8D00E29B97 /* Images.xcassets */,
 				D4F63BD51A72BE8D00E29B97 /* LaunchScreen.xib */,
 				D4F63BCA1A72BE8D00E29B97 /* WorkoutGrid.xcdatamodeld */,
@@ -222,9 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F63BF71A76BE6400E29B97 /* CurrentMachineViewController.m in Sources */,
+				D4F63BEE1A73F65000E29B97 /* LabelCell.m in Sources */,
 				D4F63BC91A72BE8D00E29B97 /* AppDelegate.m in Sources */,
 				D4F63BC61A72BE8D00E29B97 /* main.m in Sources */,
+				D4F63BF11A75763F00E29B97 /* DataCell.m in Sources */,
+				D407F28D1A76E8240075D825 /* NewCellCollectionViewCell.m in Sources */,
 				D4F63BCF1A72BE8D00E29B97 /* ViewController.m in Sources */,
+				D4F63BF41A758D7A00E29B97 /* JHCMachine.m in Sources */,
 				D4F63BCC1A72BE8D00E29B97 /* WorkoutGrid.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +448,7 @@
 				D4F63BE81A72BE8D00E29B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4F63BE91A72BE8D00E29B97 /* Build configuration list for PBXNativeTarget "WorkoutGridTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +457,7 @@
 				D4F63BEB1A72BE8D00E29B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
